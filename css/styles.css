@@ -1,3 +1,11 @@
+.landscape img {
+  max-width: 150px;
+  border: 2px solid black;
+}
 .radio img {
   max-width: 150px;
+}
+
+#location1, #location2, #location3, #location4, #location5, #location6, #location7 {
+  display: none;
 }
