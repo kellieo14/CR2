@@ -48,6 +48,16 @@ p {
   margin-top: .5em;
 }
 
+#pepper {
+  display: inline;
+}
+#pepper img {
+  max-width:18px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+
+}
+
 /*MODAL CSS*/
 
 
