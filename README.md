@@ -23,4 +23,6 @@
   Bootstrap
   jQuery
 
-## Copyright (c) 2015 Kellie Olson
+## Legal
+
+  Copyright (c) 2015 Kellie Olson
