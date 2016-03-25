@@ -6,6 +6,10 @@
   max-width: 150px;
 }
 
+img {
+  max-width: 350px;
+}
+
 #location1, #location2, #location3, #location4, #location5, #location6, #location7 {
   display: none;
 }
