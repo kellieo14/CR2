@@ -10,48 +10,57 @@
   </head>
   <body>
     <div class="container">
-
-      <h1>Travel Quiz</h2>
+    <div id="header">
+              <h1>Travel Quiz</h1>
         <p>Do you love to travel but don't know where to go next? Take the quiz to find your perfect match!</p>
+    </div>
 
       <form id="vacation">
 
-
-      <h3><strong>Question 1:</strong> What image appeals to you?</h3>
+      <div class="row form">
+        <div class="col-md-6">
+          <h3><strong>Question 1:</strong> What image appeals to you?</h3>
 
 <!-- START FIRST QUESTION BUTTONS -->
 
-      <div class="radio landscape">
-        <label>
-          <input type="radio" name="quest1" value="3" checked>
-          <img src="img/mountain.jpg">
-        </label>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="radio landscape">
+            <label>
+              <input type="radio" name="quest1" value="3" checked>
+              <img src="img/mountain.jpg">
+            </label>
+          </div>
+          <div class="radio landscape">
+            <label>
+              <input type="radio" name="quest1" value="1">
+              <img src="img/beach.jpg">
+            </label>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="radio landscape">
+            <label>
+              <input type="radio" name="quest1" value="4">
+              <img src="img/savannah.jpg">
+            </label>
+          </div>
+        <div class="radio landscape">
+          <label>
+            <input type="radio" name="quest1" value="2">
+            <img src="img/town.jpg">
+          </label>
+        </div>
       </div>
-      <div class="radio landscape">
-        <label>
-          <input type="radio" name="quest1" value="1">
-          <img src="img/beach.jpg">
-        </label>
-      </div>
-      <div class="radio landscape">
-        <label>
-          <input type="radio" name="quest1" value="4">
-          <img src="img/savannah.jpg">
-        </label>
-      </div>
-      <div class="radio landscape">
-        <label>
-          <input type="radio" name="quest1" value="2">
-          <img src="img/town.jpg">
-        </label>
-      </div>
-
+    </div>
 
   <!-- END FIRST QUESTION BUTTONS -->
 
-      <h3><strong>Question 2:</strong> Would you consider yourself adventurous?</h3>
+    <h3><strong>Question 2:</strong> Would you consider yourself adventurous?</h3>
 
   <!-- START SECOND QUESTION BUTTONS -->
+
+
       <div class="radio">
         <label>
           <input type="radio" name="quest2" value="4" checked>
@@ -166,205 +175,213 @@
           Zebra
         </label>
       </div>
-
+    </div>
 <!-- END FIFTH QUESTION BUTTONS -->
+  <div class="col-md-6">
+    <h3><strong>Question 6:</strong> What is your preferred accomodation?</h3>
 
-      <h3><strong>Question 6:</strong> What is your preferred accomodation?</h3>
+        <!-- START SIXTH QUESTION BUTTONS -->
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="1" checked>
+              Resort
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="2">
+              Private Bungalow
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="4">
+              Tent
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="3">
+              Cabin
+            </label>
+          </div>
 
-    <!-- START SIXTH QUESTION BUTTONS -->
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="1" checked>
-          Resort
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="2">
-          Private Bungalow
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="4">
-          Tent
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="3">
-          Cabin
-        </label>
-      </div>
+    <!-- END SIXTH QUESTION BUTTONS -->
 
-<!-- END SIXTH QUESTION BUTTONS -->
+          <h3><strong>Question 7:</strong> How do you like to get around?</h3>
 
-      <h3><strong>Question 7:</strong> How do you like to get around?</h3>
+    <!-- START SEVENTH QUESTION BUTTONS -->
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="3" checked>
+              Train
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="4">
+              Bicycling
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="2">
+              Boat
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="1">
+              Plane
+            </label>
+          </div>
 
-<!-- START SEVENTH QUESTION BUTTONS -->
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="3" checked>
-          Train
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="4">
-          Bicycling
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="2">
-          Boat
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="1">
-          Plane
-        </label>
-      </div>
+      <!-- END SEVENTH QUESTION BUTTONS -->
 
-  <!-- END SEVENTH QUESTION BUTTONS -->
+          <h3><strong>Question 8:</strong>What sport do you like to watch?</h3>
 
-      <h3><strong>Question 8:</strong>What sport do you like to watch?</h3>
-
-    <!-- START EIGTH QUESTION BUTTONS -->
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="3" checked>
-          Soccer
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="2">
-          Hockey
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="1">
-          Ice Skating
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="4">
-          Baseball
-        </label>
-      </div>
+        <!-- START EIGTH QUESTION BUTTONS -->
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="3" checked>
+              Soccer
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="2">
+              Hockey
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="1">
+              Ice Skating
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="quest5" value="4">
+              Baseball
+            </label>
+          </div>
 
 <!-- END EIGTH QUESTION BUTTONS -->
 
-      <h3><strong>Question 9:</strong> What movie genre do you like?</h3>
+        <h3><strong>Question 9:</strong> What movie genre do you like?</h3>
 
-<!-- START NINTH QUESTION BUTTONS -->
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="4" checked>
-          Sci-fi
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="1">
-          Romantic Comedy
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="2">
-          Action
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest5" value="3">
-          Western
-        </label>
-      </div>
+    <!-- START NINTH QUESTION BUTTONS -->
+        <div class="radio">
+          <label>
+            <input type="radio" name="quest5" value="4" checked>
+            Sci-fi
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="quest5" value="1">
+            Romantic Comedy
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="quest5" value="2">
+            Action
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="quest5" value="3">
+            Western
+          </label>
+        </div>
 
-<!-- END NINTH QUESTION BUTTONS -->
+    <!-- END NINTH QUESTION BUTTONS -->
 
-      <h3><strong>Question 10:</strong> What car would you drive?</h3>
+        <h3><strong>Question 10:</strong> What car would you drive?</h3>
 
-<!-- START TENTH QUESTION BUTTONS -->
-
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest1" value="3" checked>
-          <img src="img/incar3.jpg">
-        </label>
+    <!-- START TENTH QUESTION BUTTONS -->
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="radio">
+              <label>
+                <input type="radio" name="quest1" value="3" checked>
+                <img src="img/incar3.jpg">
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="quest1" value="1">
+                <img src="img/cacar.jpg">
+              </label>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="radio">
+              <label>
+                <input type="radio" name="quest1" value="4">
+                <img src="img/sarge.jpg">
+              </label>
+            </div>
+            <div class="radio right">
+              <label>
+                <input type="radio" name="quest1" value="2">
+                <img src="img/itacar.jpg">
+              </label>
+            </div>
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest1" value="1">
-          <img src="img/cacar.jpg">
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="quest1" value="4">
-          <img src="img/sarge.jpg">
-        </label>
-      </div>
-      <div class="radio right">
-        <label>
-          <input type="radio" name="quest1" value="2">
-          <img src="img/itacar.jpg">
-        </label>
-      </div>
-
+    </div>
+    </div>
 <!-- END TENTH QUESTION BUTTONS -->
-
-      <button type="submit" class="btn btn-primary btn-lg">
-        Where Should I Go?
-      </button>
-    </form>
+      <hr></hr>
+      <div id="btn">
+        <button type="submit"  class="btn btn-primary btn-lg">
+          Where Should I Go?
+        </button>
+      </div>
+      </form>
 
 <!-- START OF RESULTS-->
       <div id="location1">
         <h2>Bali, Indonesia</h2>
-        <img src="img/bali.jpg" alt="Genie!">
+        <img src="img/bali.jpg" alt="Bali">
           <p>Bali is...</p>
       </div>
 
       <div id="location2">
         <h2>Italy</h2>
-        <img src="img/italy.jpg" alt="Aladdin!">
+        <img src="img/italy.jpg" alt="Italy">
           <p>Italy is...</p>
       </div>
 
       <div id="location3">
         <h2>Canada</h2>
-        <img src="img/canada.jpg" alt="Carpet!">
+        <img src="img/canada.jpg" alt="Canada">
           <p>Canada is...</p>
       </div>
 
       <div id="location4">
         <h2>New Zealand</h2>
-        <img src="img/nz.jpg" alt="Iago!">
+        <img src="img/nz.jpg" alt="New Zealand">
           <p>New Zealand is...</p>
       </div>
 
       <div id="location5">
         <h2>Argentina</h2>
-        <img src="img/argentina.jpg" alt="Jafar!">
+        <img src="img/argentina.jpg" alt="Argentina">
           <p>Argentina is...</p>
       </div>
 
       <div id="location6">
         <h2>South Africa</h2>
-        <img src="img/sa.jpg" alt="Jafar!">
+        <img src="img/sa.jpg" alt="South Africa">
           <p>South Africa is...</p>
       </div>
 
       <div id="location7">
         <h2>India</h2>
-        <img src="img/india.jpg" alt="Jafar!">
+        <img src="img/india.jpg" alt="India">
           <p>India is...</p>
       </div>
 <!-- END OF RESULTS-->
