@@ -19,6 +19,11 @@
 
       <div class="row form">
         <div class="col-md-6">
+          <div class="row name">
+              <label for="person1">Your Name</label>
+              <input id="name" class="form-control" type="text" required>
+          </div>
+
           <h3><strong>Question 1:</strong> What image appeals to you?</h3>
 
 <!-- START FIRST QUESTION BUTTONS -->
@@ -183,25 +188,25 @@
         <!-- START SIXTH QUESTION BUTTONS -->
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="1" checked>
+              <input type="radio" name="quest6" value="1" checked>
               Resort
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="2">
+              <input type="radio" name="quest6" value="2">
               Private Bungalow
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="4">
+              <input type="radio" name="quest6" value="4">
               Tent
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="3">
+              <input type="radio" name="quest6" value="3">
               Cabin
             </label>
           </div>
@@ -213,25 +218,25 @@
     <!-- START SEVENTH QUESTION BUTTONS -->
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="3" checked>
+              <input type="radio" name="quest7" value="3" checked>
               Train
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="4">
+              <input type="radio" name="quest7" value="4">
               Bicycling
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="2">
+              <input type="radio" name="quest7" value="2">
               Boat
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="1">
+              <input type="radio" name="quest7" value="1">
               Plane
             </label>
           </div>
@@ -243,25 +248,25 @@
         <!-- START EIGTH QUESTION BUTTONS -->
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="3" checked>
+              <input type="radio" name="quest8" value="3" checked>
               Soccer
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="2">
+              <input type="radio" name="quest8" value="2">
               Hockey
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="1">
+              <input type="radio" name="quest8" value="1">
               Ice Skating
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="quest5" value="4">
+              <input type="radio" name="quest8" value="4">
               Baseball
             </label>
           </div>
@@ -273,25 +278,25 @@
     <!-- START NINTH QUESTION BUTTONS -->
         <div class="radio">
           <label>
-            <input type="radio" name="quest5" value="4" checked>
+            <input type="radio" name="quest9" value="4" checked>
             Sci-fi
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="quest5" value="1">
+            <input type="radio" name="quest9" value="1">
             Romantic Comedy
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="quest5" value="2">
+            <input type="radio" name="quest9" value="2">
             Action
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="quest5" value="3">
+            <input type="radio" name="quest9" value="3">
             Western
           </label>
         </div>
@@ -305,13 +310,13 @@
           <div class="col-sm-6">
             <div class="radio">
               <label>
-                <input type="radio" name="quest1" value="3" checked>
+                <input type="radio" name="quest10" value="3" checked>
                 <img src="img/incar3.jpg">
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="quest1" value="1">
+                <input type="radio" name="quest10" value="1">
                 <img src="img/cacar.jpg">
               </label>
             </div>
@@ -319,13 +324,13 @@
           <div class="col-sm-6">
             <div class="radio">
               <label>
-                <input type="radio" name="quest1" value="4">
+                <input type="radio" name="quest10" value="4">
                 <img src="img/sarge.jpg">
               </label>
             </div>
             <div class="radio right">
               <label>
-                <input type="radio" name="quest1" value="2">
+                <input type="radio" name="quest10" value="2">
                 <img src="img/itacar.jpg">
               </label>
             </div>
@@ -344,45 +349,46 @@
 
 <!-- START OF RESULTS-->
       <div id="location1">
-        <h2>Bali, Indonesia</h2>
+        <h2><span class="name"></span>You should go to Bali, Indonesia</h2>
         <img src="img/bali.jpg" alt="Bali">
-          <p>Bali is...</p>
+          <p>Bali is a beautiful place to realx. You can spend the days soaking up the sun and catching up on your reading. But don't worry about getting bored, there is plenty to see and do! To learn more about this country click <a href="https://www.lonelyplanet.com/indonesia/bali">here</a>. </p>
       </div>
 
       <div id="location2">
-        <h2>Italy</h2>
+        <h2><span class="name"></span>You should go to Italy</h2>
         <img src="img/italy.jpg" alt="Italy">
-          <p>Italy is...</p>
+          <p>Italy is the perfect place to relax and explore new places. Enjoy the picturesque villages, explore old ruins, and enjoy the delcious food. To learn more about this country click <a href="https://www.lonelyplanet.com/italy">here</a>.</p>
       </div>
 
       <div id="location3">
-        <h2>Canada</h2>
+        <h2><span class="name"></span>You should go to Canada</h2>
         <img src="img/canada.jpg" alt="Canada">
-          <p>Canada is...</p>
+          <p>Canada is a great mix of old and new. There are some beautiful cities in this country but within a few hours you will be surrounded by wilderness wonderland. It's the great place to go if you want a little rest and adventure. To learn more about this country click <a href="https://www.lonelyplanet.com/canada">here</a>.</p>
       </div>
 
       <div id="location4">
-        <h2>New Zealand</h2>
+        <h2><span class="name"></span>You should go to New Zealand</h2>
         <img src="img/nz.jpg" alt="New Zealand">
-          <p>New Zealand is...</p>
+          <p>New Zealand is beautiful with its rugged mountains and green fields. There is plenty to explore and the natural beauty is unparalleled. To learn more about this country click <a href="https://www.lonelyplanet.com/new-zealand">here</a>.</p>
       </div>
 
       <div id="location5">
-        <h2>Argentina</h2>
+        <h2><span class="name"></span>You should go to Argentina</h2>
         <img src="img/argentina.jpg" alt="Argentina">
-          <p>Argentina is...</p>
+          <p>In Argentina you will find a vibrant culture and friendly people. If you head South to Patagonia you can visit the South American penguins and see the massive glaciers. Click <a href="https://www.lonelyplanet.com/argentina">here</a> to find out more about this country.</p>
       </div>
 
       <div id="location6">
-        <h2>South Africa</h2>
+        <h2><span class="name"></span>
+          <br></br>You should go to South Africa</h2>
         <img src="img/sa.jpg" alt="South Africa">
-          <p>South Africa is...</p>
+          <p>South Africa is a great place to explore! From the ocean to the savannah, South Africa has it all. Click <a href="https://www.lonelyplanet.com/south-africa">here</a> to learn more about this country.</p>
       </div>
 
       <div id="location7">
-        <h2>India</h2>
+        <h2><span class="name"></span>You should go to India</h2>
         <img src="img/india.jpg" alt="India">
-          <p>India is...</p>
+          <p>You're ready to adventure! India is unique in all areas. With delicious food, bright clothing, beautiful architecture, and range of activities India is sure to win you over.</p>
       </div>
 <!-- END OF RESULTS-->
 
